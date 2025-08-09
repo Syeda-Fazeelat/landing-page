@@ -35,8 +35,7 @@ body {
 
 /* Header */
 header {
-    background-color: #edf6fa ;
-    
+    background-color: #edf6fa;
     box-shadow: var(--shadow);
     position: fixed;
     width: 100%;
@@ -73,7 +72,6 @@ header {
     color: var(--primary);
     text-shadow: 0px 8px 8px var(--primary);
 }
-
 
 .mobile-menu-btn {
     display: none;
@@ -231,8 +229,8 @@ header {
     border-radius: var(--radius);
     box-shadow: var(--shadow);
     transition: var(--transition);
-
 }
+
 .testimonial-card:hover {
     transform: translateY(-10px);
 }
@@ -319,97 +317,4 @@ footer {
 }
 
 .footer-column h3 {
-    font-size: 1.25rem;
-    margin-bottom: 1.5rem;
-}
-
-.footer-column ul {
-    list-style: none;
-}
-
-.footer-column ul li {
-    margin-bottom: 0.75rem;
-}
-
-.footer-column ul li a {
-    color: var(--light-gray);
-    text-decoration: none;
-    transition: var(--transition);
-}
-
-.footer-column ul li a:hover {
-    color: white;
-}
-
-.social-links {
-    display: flex;
-    gap: 1rem;
-}
-
-.social-links a {
-    color: white;
-    font-size: 1.25rem;
-}
-
-.copyright {
-    text-align: center;
-    padding-top: 1.5rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    color: var(--light-gray);
-    font-size: 0.875rem;
-}
-
-/* Responsive */
-@media (max-width: 992px) {
-    .hero-content {
-        flex-direction: column;
-        gap: 3rem;
-    }
-
-    .hero-text {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-    }
-
-    .mobile-menu-btn {
-        display: block;
-    }
-
-    .hero {
-        padding: 8rem 0 4rem;
-    }
-
-    .hero-text h1 {
-        font-size: 2.5rem;
-    }
-
-    .section {
-        padding: 4rem 0;
-    }
-}
-
-@media (max-width: 576px) {
-    .hero-text h1 {
-        font-size: 2rem;
-    }
-
-    .hero-text p {
-        font-size: 1rem;
-    }
-
-    .section-title h2 {
-        font-size: 1.75rem;
-    }
-
-    .cta h2 {
-        font-size: 1.75rem;
-    }
-}
+    font-size
